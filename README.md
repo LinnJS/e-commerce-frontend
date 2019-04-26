@@ -1,3 +1,3 @@
-# Advanced-React
+# e-commerce frontend
 
-frontend
+e-commerce frontend using react, graphql, and Apollo
