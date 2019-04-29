@@ -1,20 +1,21 @@
 import Link from 'next/link';
-import NavStyles from './styles/NavStyles'
+import NavStyles from './styles/NavStyles';
+
 const Nav = () => (
   <NavStyles>
     <Link href="/items">
-      <a>Items</a>
+      <a>Shop</a>
     </Link>
     <Link href="/sell">
       <a>Sell</a>
     </Link>
     <Link href="/signup">
-      <a>Sign-Up</a>
+      <a>Signup</a>
     </Link>
     <Link href="/orders">
       <a>Orders</a>
     </Link>
-    <Link href="/account">
+    <Link href="/me">
       <a>Account</a>
     </Link>
   </NavStyles>

@@ -1,9 +1,9 @@
 import React from 'react';
-import Link from 'next/link';
+import Items from '../components/Items';
 
-const Home = props => (
+const Home = () => (
   <div>
-    <span>Home</span>
+    <Items />
   </div>
 );
 
